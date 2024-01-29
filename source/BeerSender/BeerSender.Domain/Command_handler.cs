@@ -29,7 +29,7 @@ public abstract class Command_handler<TAggregate, TCommand> where TAggregate : I
     /// <param name="command">Command to handle.</param>
     public void Handle(TCommand command)
     {
-        TAggregate aggregate = CreateAggregate();
+        var aggregate = CreateAggregate();
 
         foreach (var @event in _event_stream)
         {

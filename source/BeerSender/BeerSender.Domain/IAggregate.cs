@@ -1,4 +1,4 @@
-﻿namespace BeerSender.Domain.Boxes.Handlers;
+﻿namespace BeerSender.Domain;
 
 public interface IAggregate
 {
