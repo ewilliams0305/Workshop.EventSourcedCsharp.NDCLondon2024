@@ -1,6 +1,4 @@
-﻿using BeerSender.Domain.Boxes.Handlers;
-
-namespace BeerSender.Domain.Boxes;
+﻿namespace BeerSender.Domain.Boxes;
 
 public class Box : IAggregate
 {
