@@ -1,6 +1,8 @@
-﻿namespace BeerSender.Domain.Boxes;
+﻿using BeerSender.Domain.Boxes.Handlers;
 
-public class Box
+namespace BeerSender.Domain.Boxes;
+
+public class Box : IAggregate
 {
     public Capacity? Capacity { get; private set; }
 

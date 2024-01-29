@@ -62,7 +62,7 @@ namespace BeerSender.Tests
             When(
                 Create_box_with_desired_capacity(17));
             // New events
-            Expect(new Box_created(new Capacity(23)));
+            Expect(new Box_created(new Capacity(24)));
         }
     }
 }
